@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
 
-  s.source       = { :git => "https://github.com/zshenchun/MyDemo3.git", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:zshenchun/MyDemo3.git", :tag => "#{s.version}" }
 
   s.vendored_frameworks = 'ZSDXKDemSKD.framework'
 
   s.frameworks = 'Foundation'
+
 end
