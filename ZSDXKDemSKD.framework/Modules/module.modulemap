@@ -1,0 +1,6 @@
+framework module ZSDXKDemSKD {
+  umbrella header "ZSDXKDemSKD.h"
+
+  export *
+  module * { export * }
+}
